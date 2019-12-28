@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spring1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 5.4.9-5.4.9" />
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Struts 2-2.5.14.1" />
+          <element id="library" level="project" name="org.wisdom-framework:mysql-connector-java:5.1.34_1" />
+          <element id="library" level="project" name="org.apache.commons:commons-dbcp2:2.1" />
+          <element id="library" level="project" name="struts2-spring-plugin-2.5.22" />
+          <element id="library" level="project" name="spring-web-5.2.2.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
